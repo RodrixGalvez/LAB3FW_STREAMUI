@@ -9,6 +9,8 @@ object HomeDestination
 object SearchDestination
 
 @Serializable
+object HighlightsDestination
+@Serializable
 data class PlayerDestination(
     val songId: String,
     val title: String,
